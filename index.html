@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="foodstaff">
-      <a href="#"
+      <a href="#" class="logo"
         ><img src="./img/vector.png" alt="logo" width="66" height="52"
       /></a>
       <nav class="foodstaff-nav">
@@ -31,7 +39,7 @@
           </li>
         </ul>
       </nav>
-      <button type="button" class="foodstaff-btn">Order Now</button>
+      <button type="button" class="foodstaff-btn btn">Order Now</button>
     </header>
     <main>
       <!------------------- hero ---------------->
@@ -42,7 +50,7 @@
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
         </p>
-        <button type="button" class="hero-btn">Order Now</button>
+        <button type="button" class="hero-btn btn">Order Now</button>
         <img src="./img/food.jpg" alt="dish" width="528" height="528" />
       </section>
 
@@ -89,13 +97,13 @@
               height="315"
             />
           </li>
-          <li class="menu-item">
+          <li class="favorite-item">
             <img src="./img/pasta.jpg" alt="pasta" width="315" height="315" />
           </li>
-          <li class="menu-item">
+          <li class="favorite-item">
             <img src="./img/pizza.jpg" alt="pizza" width="315" height="315" />
           </li>
-          <li class="menu-item">
+          <li class="favorite-item">
             <img
               src="./img/chicken.jpg"
               alt="chicken"
@@ -103,10 +111,10 @@
               height="315"
             />
           </li>
-          <li class="menu-item">
+          <li class="favorite-item">
             <img src="./img/salat.jpg" alt="salat" width="315" height="315" />
           </li>
-          <li class="menu-item">
+          <li class="favorite-item">
             <img
               src="./img/borshch.jpg"
               alt="borshch"
@@ -120,10 +128,12 @@
       <!--------------------customer reviews ---------------------->
       <section class="reviews">
         <h2 class="reviews-title">What our Customers Say</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="reviews-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
         <ul class="reviews-list">
           <li class="reviews-item">
-            <p class="reviews-description">
+            <p class="reviews-description-item">
               “The Best app I have used to order food in a while, so many
               options to choose from too, I would recommend to a freind, No
               questions asked”
@@ -132,7 +142,7 @@
             <p class="reviews-text">Some Dude</p>
           </li>
           <li class="reviews-item">
-            <p>
+            <p class="reviews-description-item">
               “The ease with which I can just go in and order what i want was
               amazing, It has been a very pleasant experience ordering from this
               app”
@@ -149,29 +159,41 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.
         </p>
-        <button type="button" class="subscribe-btn">Subscribe</button>
+        <button type="button" class="subscribe-btn btn">Subscribe</button>
         <img src="./img/banan.jpg" alt="banan" width="608" height="266" />
       </section>
     </main>
     <footer class="footer">
-      <a href="#" class="footer-link"
+      <a href="#" class="logo"
         ><img src="./img/vector.png" alt="logo" width="66" height="52"
       /></a>
       <nav class="footer-nav">
         <ul class="footer-list">
-          <li class="footer-item"><a href="">Home</a></li>
-          <li class="footer-item"><a href="">About</a></li>
-          <li class="footer-item"><a href="">Service</a></li>
-          <li class="footer-item"><a href="">Menu</a></li>
-          <li class="footer-item"><a href="">Contact</a></li>
+          <li class="footer-item"><a href="" class="footer-link">Home</a></li>
+          <li class="footer-item">
+            <a href="" class="footer-link">About</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">Service</a>
+          </li>
+          <li class="footer-item"><a href="" class="footer-link">Menu</a></li>
+          <li class="footer-item">
+            <a href="" class="footer-link">Contact</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Cookies Settings</a></li>
+        <li class="footer-item">
+          <a href="#" class="footer-link-item">Privacy Policy</a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-link-item">Terms of Service</a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-link-item">Cookies Settings</a>
+        </li>
       </ul>
-      <p>2022 FoodSta. All right reserved.</p>
+      <p class="footer-description">2022 FoodSta. All right reserved.</p>
     </footer>
   </body>
 </html>

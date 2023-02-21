@@ -1,0 +1,225 @@
+:root{
+--primery-text-color:  #2C2C2C;
+--akcent-text-color: #BBF330;
+--bacground-color-bnt: #BBF330;
+
+}
+body{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+color:var(--primery-text-color);
+background-color: #F5F5F5;;
+}
+
+
+.foodstaff {
+}
+.foodstaff-nav {
+}
+.foodstaff-list {
+}
+.foodstaff-item {
+    list-style: none;
+}
+
+.foodstaff-link { 
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+color: var(--primery-text-color);
+}
+.foodstaff-link:hover,
+.foodstaff-link:focus,
+.foodstaff-link:active{
+ color: var(--akcent-text-color);
+}
+
+.foodstaff-btn{
+color:var(--primery-text-color);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+background-color: var(--bacground-color-bnt);
+border-radius: 30px;
+}
+.btn:hover,
+.btn:focus {
+background-color: #FFE450;
+}
+/* -----------hero------------ */
+.hero {
+}
+.hero-title {
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+}
+
+.hero-dscription {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.hero-btn {
+    color:var(--primery-text-color);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+background-color: var(--bacground-color-bnt);
+border-radius: 30px;
+}
+/* -----------advantage------------ */
+.advantages {
+}
+.advantages-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+}
+.advantages-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.advantages-lis {
+}
+.advantagesu-item {
+}
+.advantages-subtitle {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.4;
+}
+.advantages-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+}
+.advantages-btn {
+color:var(--primery-text-color);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+background-color: #FFFFFF;
+border: 2px solid #7EB101;
+border-radius: 30px;
+}
+.advantages-btn:hover,
+.advantages-btn:focus {
+background-color: var(--bacground-color-bnt);
+}
+/* ------------------- favorite dishes---------------- */
+.favorite {
+}
+.favorite-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+}
+.favorite-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+}
+.favorite-list {
+}
+.favorite-item {
+}
+/* --------------------customer reviews ---------------------- */
+.reviews {
+}
+.reviews-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+}
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-description {font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+}
+.reviews-description-item {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;    
+}
+.reviews-subtitle {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.5;
+}
+.reviews-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+}
+/* --------------------subscribe ---------------------- */
+.subscribe {
+}
+.subscribe-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+}
+.subscribe-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.subscribe-btn {
+color:var(--primery-text-color);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+background-color: var(--bacground-color-bnt);
+border-radius: 30px;
+}
+.footer {
+}
+.logo {
+}
+.footer-nav {
+}
+.footer-list {
+}
+.footer-item {
+    list-style: none;
+}
+.footer-link {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+color: var(--primery-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--akcent-text-color);
+}
+.footer-item {
+}
+.footer-link-item {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+text-decoration-line: underline;
+color: #7EB101;
+}
+.footer-description {
+}
