@@ -1,7 +1,7 @@
 :root{
 --primery-text-color:  #2C2C2C;
 --akcent-text-color: #BBF330;
---bacground-color-bnt: #BBF330;
+--bacground-color-btn: #BBF330;
 
 }
 body{
@@ -44,7 +44,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 1.5;
-background-color: var(--bacground-color-bnt);
+background-color: var(--bacground-color-btn);
 border-radius: 30px;
 }
 .btn:hover,
@@ -72,7 +72,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 1.5;
-background-color: var(--bacground-color-bnt);
+background-color: var(--bacground-color-btn);
 border-radius: 30px;
 }
 /* -----------advantage------------ */
@@ -115,7 +115,7 @@ border-radius: 30px;
 }
 .advantages-btn:hover,
 .advantages-btn:focus {
-background-color: var(--bacground-color-bnt);
+background-color: var(--bacground-color-btn);
 }
 /* ------------------- favorite dishes---------------- */
 .favorite {
